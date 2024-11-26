@@ -1,0 +1,78 @@
+/* Estilo base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y tipografía */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 20px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5a5a5a;
+}
+
+/* Estilo del botón */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Contenedor de resultados */
+#resultList {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#resultList li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+    padding: 0;
+}
+
+li strong {
+  color: #333;
+}
+
+li {
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+#map {
+  border: 2px solid #333;
+  margin-top: 10px;
+}

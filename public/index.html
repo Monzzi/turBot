@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turBot tu guía turística 24/7</title>
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Incluir el CSS de Mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet" />
+    <!-- Incluir el JS de Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+
+
+</head>
+<body>
+    <h1>turBot soy tu guía turística, siempre a tu lado</h1>
+    <div>
+        <button id="getDataBtn">Ver Lugares Turísticos</button>
+        <ul id="resultList"></ul>
+    </div>
+
+    <div id="map" style="height: 500px; width: 100%;"></div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

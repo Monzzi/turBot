@@ -1,0 +1,30 @@
+[
+  {
+      "city": "Barcelona",
+      "places": [
+          {
+              "name": "La Sagrada Familia",
+              "type": "monumento",
+              "description": "Una basílica icónica diseñada por Gaudí.",
+              "rating": 4.8
+          },
+          {
+              "name": "Parque Güell",
+              "type": "parque",
+              "description": "Un parque colorido y lleno de arquitectura única.",
+              "rating": 4.7
+          }
+      ]
+  },
+  {
+      "city": "Madrid",
+      "places": [
+          {
+              "name": "Museo del Prado",
+              "type": "museo",
+              "description": "Uno de los museos de arte más famosos del mundo.",
+              "rating": 4.9
+          }
+      ]
+  }
+]
